@@ -71,7 +71,7 @@ export default function Contact() {
           </a>
           <a
             href={withBasePath("/cv.pdf")}
-            download
+            download="Christian-Bakiti-Kamga-CV.pdf"
             className="inline-flex items-center gap-2 rounded-full border-2 border-ink px-6 py-3 text-sm font-semibold transition-transform hover:-translate-y-0.5"
           >
             <Download size={16} aria-hidden="true" />

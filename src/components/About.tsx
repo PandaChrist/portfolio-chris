@@ -105,7 +105,7 @@ export default function About() {
           <FadeUp delay={0.3}>
             <a
               href={withBasePath("/cv.pdf")}
-              download
+              download="Christian-Bakiti-Kamga-CV.pdf"
               className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"
             >
               <Download size={16} aria-hidden="true" />
