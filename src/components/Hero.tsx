@@ -64,7 +64,7 @@ export default function Hero() {
 
           <div className="relative z-10 text-center md:-ml-16 md:text-left">
             <p className="mb-4 font-mono text-xs uppercase tracking-[0.3em] text-zinc-400">
-              Christian Bakiti Kamga — Full Stack & DevOps
+              Christian Bakiti Kamga — Full Stack & DevOps ii
             </p>
             <h1 className="text-7xl font-bold leading-[0.95] tracking-tight sm:text-8xl md:text-[7.5rem]">
               <AnimatePresence mode="wait">
@@ -95,7 +95,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
-          className="mt-14 max-w-sm text-center md:absolute md:bottom-16 md:left-8 md:mt-0 md:rounded-2xl md:bg-ink/80 md:p-4 md:text-left md:backdrop-blur-sm lg:left-[max(2rem,calc((100vw-72rem)/2+2rem))]"
+          className="relative z-10 mt-14 max-w-sm text-center md:absolute md:bottom-16 md:left-8 md:mt-0 md:rounded-2xl md:bg-ink/80 md:p-4 md:text-left md:backdrop-blur-sm lg:left-[max(2rem,calc((100vw-72rem)/2+2rem))]"
         >
           <p className="text-sm leading-relaxed text-zinc-300">
             Ingénieur full stack basé à Yaoundé. Je conçois des produits web et
