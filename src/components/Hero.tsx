@@ -5,6 +5,7 @@ import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { slogans } from "@/lib/data";
+import { withBasePath } from "@/lib/base-path";
 
 export default function Hero() {
   const [slide, setSlide] = useState(0);
@@ -50,7 +51,7 @@ export default function Hero() {
             ) : (
               <div className="absolute inset-x-6 bottom-0 top-[-8%] overflow-hidden rounded-b-full">
                 <Image
-                  src="/images/myprofile.png"
+                  src={withBasePath("/images/myprofile.png")}
                   alt="Portrait de Christian Bakiti Kamga"
                   fill
                   priority
@@ -64,7 +65,7 @@ export default function Hero() {
 
           <div className="relative z-10 text-center md:-ml-16 md:text-left">
             <p className="mb-4 font-mono text-xs uppercase tracking-[0.3em] text-zinc-400">
-              Christian Bakiti Kamga — Full Stack & DevOps ii
+              Christian Bakiti Kamga — Full Stack & DevOps
             </p>
             <h1 className="text-7xl font-bold leading-[0.95] tracking-tight sm:text-8xl md:text-[7.5rem]">
               <AnimatePresence mode="wait">
