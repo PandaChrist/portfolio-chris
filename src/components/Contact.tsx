@@ -89,6 +89,8 @@ export default function Contact() {
         <FadeUp delay={0.25} className="mt-12 flex items-center gap-6">
           <a
             href={contact.github}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Profil GitHub"
             className="flex size-12 items-center justify-center rounded-full border-2 border-ink transition-colors hover:bg-ink hover:text-accent"
           >
@@ -96,6 +98,8 @@ export default function Contact() {
           </a>
           <a
             href={contact.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Profil LinkedIn"
             className="flex size-12 items-center justify-center rounded-full border-2 border-ink transition-colors hover:bg-ink hover:text-accent"
           >

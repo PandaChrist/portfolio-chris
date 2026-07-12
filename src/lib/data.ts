@@ -12,8 +12,8 @@ export const contact = {
   phone: "+237 6 59 35 71 04",
   phoneHref: "tel:+237659357104",
   location: "Yaoundé, Cameroun · ouvert au remote",
-  github: "#",
-  linkedin: "#",
+  github: "https://github.com/PandaChrist",
+  linkedin: "https://www.linkedin.com/in/christian-bakiti-7849b11a1/",
 };
 
 export const slogans: string[][] = [
