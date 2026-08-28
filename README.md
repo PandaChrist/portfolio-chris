@@ -18,13 +18,6 @@ npm run build
 ```
 
 Le site exporté est généré dans le dossier `out/`.
-
-## À remplacer avant la mise en ligne
-
-- **Photo de profil** : déposer une vraie photo (portrait, idéalement noir et blanc) dans `public/images/profile.jpg`. Tant que le fichier est absent, le hero affiche un dégradé avec les initiales « CB ».
-- **CV** : remplacer le fichier vide `public/cv.pdf` par le vrai CV au format PDF.
-- **Liens GitHub / LinkedIn** : renseigner les vraies URLs dans `src/lib/data.ts` (champs `contact.github` et `contact.linkedin`, actuellement `#`).
-
 ## Déploiement GitHub Pages
 
 Le workflow `.github/workflows/deploy.yml` build et déploie automatiquement sur GitHub Pages à chaque push sur `main` (activer Pages avec la source « GitHub Actions » dans les réglages du dépôt).
