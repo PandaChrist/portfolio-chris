@@ -81,19 +81,8 @@ node scripts/gen-land.mjs .
 # puis recopier le base64 obtenu dans src/lib/land-mask.ts
 ```
 
-### Poids et dégradation
-
-Le code 3D est chargé à part, après le premier rendu, et toutes les scènes
-partagent **un seul** chunk three.js (`src/components/three/scenes.ts`) :
-
-| | brut | gzip |
-|---|---|---|
-| JS initial | ~880 ko | ~270 ko |
-| Chunk 3D (différé) | ~1 Mo | ~274 ko |
-
-Rien de tout cela n'est chargé si WebGL est indisponible ou si le visiteur a
-demandé `prefers-reduced-motion` : le contenu est déjà présent dans le HTML
-exporté, et chaque scène a une version statique équivalente.
+Le site exporté est généré dans le dossier `out/`.
+## Déploiement GitHub Pages
 
 ## Déploiement
 
