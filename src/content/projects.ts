@@ -297,10 +297,10 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "jestock",
+    slug: "vozima",
     year: "2025 — 2026",
     places: ["CM"],
-    link: null,
+    link: "https://vozima.tech/",
     stack: [
       { label: "Backend", items: ["FastAPI", "Python", "node", "PostgreSQL"] },
       { label: "Web", items: ["Angular 18", "TypeScript"] },
@@ -309,12 +309,12 @@ export const projects: Project[] = [
     ],
     copy: {
       fr: {
-        title: "Jestock",
+        title: "vozima",
         context: "Projet produit",
         tagline: "Suivre son stock et ses ventes en temps réel, depuis le comptoir ou le téléphone.",
         role: "Concepteur & développeur",
         summary:
-          "Jestock est une application de gestion d'inventaire et de ventes pour les boutiques. Une API REST unique alimente un back-office Angular 18 et une application mobile Flutter. C'est aussi mon terrain d'exploration sur ces trois technologies.",
+          "vozima est une application de gestion d'inventaire et de ventes pour les boutiques. Une API REST unique alimente un back-office Angular 18 et une application mobile Flutter. C'est aussi mon terrain d'exploration sur ces trois technologies.",
         problem:
           "Beaucoup de petites boutiques tiennent encore leur stock sur un cahier ou un tableur. Le problème n'est pas l'absence d'outils, c'est que les outils existants supposent un ordinateur toujours allumé, une connexion stable et un vocabulaire comptable. Il fallait quelque chose qui fonctionne au comptoir, sur un téléphone, avec le vocabulaire du commerçant.",
         contributions: [
@@ -344,12 +344,12 @@ export const projects: Project[] = [
           "Pensé pour les commerces de détail au Cameroun : petites boutiques, connexion intermittente, usage au comptoir sur téléphone Android d'entrée de gamme.",
       },
       en: {
-        title: "Jestock",
+        title: "vozima",
         context: "Product project",
         tagline: "Track stock and sales in real time, from the counter or from a phone.",
         role: "Designer & developer",
         summary:
-          "Jestock is an inventory and sales management app for retail shops. A single REST API feeds an Angular 18 back office and a Flutter mobile app. It is also my proving ground for those three technologies.",
+          "vozima is an inventory and sales management app for retail shops. A single REST API feeds an Angular 18 back office and a Flutter mobile app. It is also my proving ground for those three technologies.",
         problem:
           "Many small shops still track stock in a notebook or a spreadsheet. The problem isn't a lack of tools — it's that existing tools assume an always-on computer, a stable connection and accounting vocabulary. This needed to work at the counter, on a phone, in the shopkeeper's own words.",
         contributions: [
