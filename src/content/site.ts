@@ -121,7 +121,7 @@ const fr: Dictionary = {
       ["Le web.", "Le cloud.", "Le paiement"],
     ],
     intro:
-      "Ingénieur full stack et DevOps, 5 ans d'expérience dont 2 comme référent technique. Je construis des produits web et mobiles de bout en bout, et je les emmène jusqu'en production.",
+      "Ingénieur full stack et DevOps, 6 ans d'expérience dont 2 comme référent technique. Je construis des produits web et mobiles de bout en bout, et je les emmène jusqu'en production.",
     cta: "Voir mes projets",
     ctaContact: "Me contacter",
     scroll: "Faites défiler",
@@ -131,7 +131,7 @@ const fr: Dictionary = {
     title: "L'esthétique rencontre l'infrastructure",
     lead: "Un profil rare : le soin du front-end et la rigueur de la scalabilité back-end, dans la même personne.",
     body: [
-      "Je m'appelle Christian Bakiti Kamga. Depuis cinq ans, je conçois et je livre des applications web et mobiles — et depuis deux ans, je le fais en tant que référent technique : architecture, choix de stack, encadrement d'équipes et de prestataires.",
+      "Je m'appelle Christian Bakiti Kamga. Depuis six ans, je conçois et je livre des applications web et mobiles — et depuis deux ans, je le fais en tant que référent technique : architecture, choix de stack, encadrement d'équipes et de prestataires.",
       "Ce qui me distingue, c'est de ne pas avoir choisi mon camp. Je sais construire une interface qui donne envie et un design system qui tient dans la durée. Je sais aussi conteneuriser les services, les orchestrer sur Kubernetes et automatiser la chaîne de déploiement jusqu'à ce que la mise en production devienne un non-événement.",
       "Ma spécialité concrète, c'est le paiement en contexte africain : Mobile Money, CinetPay, Flutterwave, MonetBil. Encaisser de l'argent sur un marché où la carte bancaire est minoritaire, ce n'est pas un détail d'intégration — c'est une contrainte d'architecture qui remonte jusqu'au modèle de données.",
     ],
@@ -148,7 +148,7 @@ const fr: Dictionary = {
     title: "La chaîne complète",
     lead: "Du composant React au pipeline CI/CD, sans rupture de responsabilité.",
     groups: [
-      { icon: "code", title: "Langages", items: ["JavaScript", "TypeScript", "PHP"] },
+      { icon: "code", title: "Langages", items: ["JavaScript", "Python", "PHP", "TypeScript"] },
       {
         icon: "layout",
         title: "Frontend",

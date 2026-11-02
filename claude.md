@@ -21,7 +21,7 @@ la stack est next js mais vu que sera sur github page rassure toi que ce soit st
 
 ## 2. Pitch (résumé du profil)
 
-Développeur fullstack avec **5 ans d'expérience**, dont **2 ans en tant que référent technique**. Je conçois et livre des applications web et mobiles de bout en bout, où l'esthétique rencontre l'efficacité. Spécialisé dans les **systèmes de paiement Mobile Money** et les architectures **cloud-native scalables**, je maîtrise aussi bien le front moderne que le back-end et la chaîne de déploiement complète. Autonome et rigoureux, capable d'encadrer des équipes et des prestataires.
+Développeur fullstack avec **6 ans d'expérience**, dont **2 ans en tant que référent technique**. Je conçois et livre des applications web et mobiles de bout en bout, où l'esthétique rencontre l'efficacité. Spécialisé dans les **systèmes de paiement Mobile Money** et les architectures **cloud-native scalables**, je maîtrise aussi bien le front moderne que le back-end et la chaîne de déploiement complète. Autonome et rigoureux, capable d'encadrer des équipes et des prestataires.
 
 **Angle différenciateur à mettre en avant :** un profil rare qui couvre à la fois le *front-end craft* (React/Next.js, design system, UX) **et** la *scalabilité back-end/infra* (Docker, Kubernetes, GCP, CI/CD), avec une expertise concrète des paiements africains (Mobile Money, CinetPay, Flutterwave).
 

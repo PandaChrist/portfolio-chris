@@ -302,7 +302,7 @@ export const projects: Project[] = [
     places: ["CM"],
     link: null,
     stack: [
-      { label: "Backend", items: ["FastAPI", "Python", "PostgreSQL"] },
+      { label: "Backend", items: ["FastAPI", "Python", "node", "PostgreSQL"] },
       { label: "Web", items: ["Angular 18", "TypeScript"] },
       { label: "Mobile", items: ["Flutter", "Dart"] },
       { label: "API", items: ["REST", "JWT"] },
