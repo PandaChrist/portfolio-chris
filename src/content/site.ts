@@ -136,7 +136,7 @@ const fr: Dictionary = {
       "Ma spécialité concrète, c'est le paiement en contexte africain : Mobile Money, CinetPay, Flutterwave, MonetBil. Encaisser de l'argent sur un marché où la carte bancaire est minoritaire, ce n'est pas un détail d'intégration — c'est une contrainte d'architecture qui remonte jusqu'au modèle de données.",
     ],
     stats: [
-      { value: "5", label: "ans d'expérience" },
+      { value: "6", label: "ans d'expérience" },
       { value: "2", label: "ans comme référent technique" },
       { value: "3", label: "plateformes : web, Android, iOS" },
       { value: "4", label: "passerelles de paiement intégrées" },
